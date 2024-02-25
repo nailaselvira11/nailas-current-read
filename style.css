@@ -1,0 +1,79 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 186, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(72, 20, 20);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+.animasi-bg{
+    position:absolute;
+    font-size : 8rem;
+    top: 12rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    -webkit-text-stroke: 2px rgb(218, 210, 203);
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+    user-select: none;
+}
+.my-photo{
+    width: 10rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.book-cover{
+    width: 18%;
+    float: left;
+    margin-left: 18px;
+}
+.description{
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.socmed i{
+    font-size: 1.5rem;
+}
+.socmed a:not(:last-child){
+    margin-right: 1rem;
+}
+
+.link-card{
+    background-color: rgb(218, 210, 203);
+    padding: 1rem;
+    border-radius: 20px;
+    width : 500px;
+    box-shadow: 10px 10px 0 rgba(72, 20, 20, 0.363);
+}
+.link-card:hover {
+    background-color: #FFFF;
+    padding: 1rem;
+    border-radius: 20px;
+    width : 500px;
+    box-shadow: 10px 10px 0 rgba(72, 20, 20, 0.363);
+}
+.link-text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.3rem ;
+}
+
+.author{
+    margin-top: 10px;
+    text-align: center;
+}
+.copyright{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
